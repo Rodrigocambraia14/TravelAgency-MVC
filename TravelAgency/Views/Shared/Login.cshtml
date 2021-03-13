@@ -1,0 +1,35 @@
+@using UC4_ATV2.Models
+@model Usuario
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="Container">
+<form method="POST" asp-action="Login">
+	    <fieldset>
+		
+        <div class="form group">
+          <div class="   col-md-6 offset-md-3">
+			 <label  asp-for="Login">Login: </label>
+			 <input  asp-for="Login" type="text" class="form-control " placeholder="Login de usuário">
+          </div>
+        </div>
+        <div class="form group">
+          <div class="   col-md-6 offset-md-3">
+             <label  asp-for="Senha">Senha: </label>
+			 <input  asp-for="Senha" type="password" class="form-control " placeholder="Senha">
+          </div>
+        </div>      
+        <div class="form group">
+          <div class="   col-md-6 offset-md-3">
+    		<input  type="submit" name="Entrar" class="btn btn-primary">
+          </div>
+        </div>            
+    	</fieldset>	
+</form>
+</div>
+
+<p>
+    @ViewBag.Mensagem
+</p>
+

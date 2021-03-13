@@ -1,0 +1,128 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+
+/* Provide sufficient contrast against white background */
+
+form{
+  text-align: left;
+}
+
+#Login1{
+  position:absolute;
+  top:0;
+  right:0;
+
+}
+table{
+  width: 100%;
+  margin-top: 30px;
+  font-size:20px;
+  
+}
+table,tr,th,td{
+  border:1px solid black;
+}
+th{
+  background-color:rgb(19, 123, 172);
+  height:70px;
+  padding: 10px 10px 10px;
+}
+tr,td{
+  background-color:rgb(165, 221, 247);
+  padding: 10px 10px 10px;
+  
+}
+
+#textoHome{
+  text-align:justify;
+  
+}
+#botao1:hover{
+  background-color:rgb(29, 161, 223);
+  border-color:rgb(29, 161, 223);
+  transform: scale(1.2);
+
+}
+.Titulo{
+  color:#1b6ec2;
+}
+.imagem1{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+  
+#menu ul li a {
+  padding: 5px 10px 5px 10px;
+  display: inline-block;
+  font-size:17px;
+  margin:  15px;
+  
+}
+#menu ul li a:hover {
+  background-color:#6f82ec;
+  color: #5443e7;
+  border-radius:5px;
+}
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  text-align: center;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}

@@ -1,0 +1,43 @@
+@model Usuario
+@{
+    ViewData["Title"] = "EditarUser";
+}
+<div class="Container">
+<form method="POST" asp-action="EditarUser">
+    <fieldset>
+
+        <input type="hidden" asp-for="Id">
+
+        <div class="form group">
+          <div class="   col-md-6 offset-md-3">
+            <label  asp-for="Nome">Nome</label>
+            <input  asp-for="Nome" class="form-control " placeholder="Insira o nome">
+          </div>
+        </div>
+
+        <div class="form group">
+          <div class="   col-md-6 offset-md-3">
+            <label  asp-for="Login">Login</label>
+            <input  asp-for="Login" class="form-control " placeholder="Novo login">
+          </div>
+        </div>
+        
+        <div class="form group">
+          <div class="   col-md-6 offset-md-3">
+            <label  asp-for="Senha">Senha</label>
+            <input  asp-for="Senha" class="form-control " placeholder="Nova senha">
+          </div>
+        </div>
+        <div class="form group">
+          <div class="   col-md-6 offset-md-3">
+            <input  type="submit"  value="Editar" class="btn btn-primary">
+          </div>
+        </div>
+    </fieldset>
+</form>
+</div>
+
+
+<p>
+    @ViewBag.Mensagem
+</p>
