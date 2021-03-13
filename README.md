@@ -1,8 +1,7 @@
 # TravelAgency-MVC
  Doube CRUD project for Travel Agencies
 
-made with -> (FRONT-END) HTML5, CSS3
-             (BACK-END)  C#, MySQL
+made with ->  HTML5, CSS3, C#, MySQL
 
 framework used -> MVC ASP.NET
 
