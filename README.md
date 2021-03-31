@@ -10,4 +10,4 @@ framework used -> MVC ASP.NET
   SQL scripts included as .txt file
   Front-end in current development
 
-  Also, thanks for visiting my repository, and I hope you enjoy ! 
+  Also, thank you so much for visiting my repository, and I hope you enjoy ! 
